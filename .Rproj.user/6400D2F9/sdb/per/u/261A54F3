@@ -1,0 +1,17 @@
+{
+    "contents" : "dept <- read.csv(\"averages_dept.csv\", stringsAsFactors=FALSE)\n\n\nlibrary(tidyr)\n\nnew_dept <- separate(dept, Average, c(\"2011 Total\", \"2012 Total\", \"2013 Total\", \"2014 Total\"))\n\nnew_dept <- spread(dept, CALENDAR_YEAR, Average)\n\nwrite.csv(new_dept, \"new_dept.csv\")\n",
+    "created" : 1442938290477.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "2855274869",
+    "id" : "261A54F3",
+    "lastKnownWriteTime" : 0,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

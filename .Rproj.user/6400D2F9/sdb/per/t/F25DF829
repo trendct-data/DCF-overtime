@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1442938524148.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F25DF829",
+    "lastKnownWriteTime" : 0,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "new_dept",
+        "contentUrl" : "content?title=new_dept&file=1052cd81f9024088925e6994fd39b2c8.htm",
+        "displayedObservations" : 14,
+        "displayedVariables" : 6,
+        "totalObservations" : 14,
+        "variables" : 6
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
